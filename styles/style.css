@@ -1,0 +1,126 @@
+/******variables***/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 1.3px;
+}
+
+.grid-area {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  position: relative;
+}
+
+.colored-area {
+  height: 100vh;
+  background-image: linear-gradient(120deg, hsl(278deg, 68%, 11%), hsl(278deg, 94%, 30%) 50%, hsl(249deg, 99%, 64%));
+}
+
+.img-one {
+  display: block;
+  height: 18rem;
+  position: absolute;
+  left: 12%;
+  top: 10%;
+}
+
+.img-two {
+  display: block;
+  height: 18rem;
+  position: absolute;
+  left: 16%;
+  top: 47%;
+}
+
+.icon {
+  position: absolute;
+  left: 17%;
+  top: 14%;
+}
+
+#main-form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.names, .card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.names input, .card input {
+  height: 4rem;
+  width: 30rem;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.exp {
+  display: flex;
+  gap: 1rem;
+}
+
+.exp-dat, .input-year, .cvc-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.exp-dat input, .input-year input, .cvc-label input {
+  width: 9.5rem;
+  height: 4rem;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+button {
+  height: 4.2rem;
+  width: 30rem;
+  cursor: pointer;
+  border: none;
+  background-color: hsl(278deg, 68%, 11%);
+  color: #fff;
+  border-radius: 6px;
+}
+
+/*******ERROR MESSAGES*******/
+span {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  color: hsl(0deg, 100%, 66%);
+}
+
+/********RESULT PAGE********/
+.icon-img {
+  display: block;
+  position: absolute;
+  left: 60rem;
+  top: 6rem;
+}
+
+.thanks-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+p {
+  color: hsl(279deg, 6%, 55%);
+}/*# sourceMappingURL=style.css.map */

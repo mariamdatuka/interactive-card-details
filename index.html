@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/styles/style.css">
+  
+   <script defer src="/script.js"></script>
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+  <div class="grid-area">
+  <div class="colored-area">
+    <div class="img-1"><img class="img-one" src='/images/bg-card-front.png'><img class='icon'src='/images/card-logo.svg'></div>
+    <div class="img-2"><img class='img-two'src='/images/bg-card-back.png'></div>
+</div>
+<main class="main-section">
+  <div class="main-form-section">
+  <form id="main-form" action="result.html">
+    <div class="names">
+      <label for="holder-name">CARDHOLDER NAME</label>
+      <input type="text" id="holder-name" placeholder="e.g Maria Smith">
+      <span class="holder-id"></span>
+    </div>
+   <div class="card">
+    <label for="card-number">CARD NUMBER</label>
+    <input type="text" id="card-name" placeholder="e.g 1234 5678 9123 0000">
+    <span class="card-id"></span>
+   </div>
+   <div class="exp">
+    <div class="exp-dat">
+    <label for="exp-date">EXP.DATE</label>
+  <input type="text" id='exp-date'placeholder="MM">
+  <span class="exp-id"></span>
+</div>
+  <div class="input-year">
+    <label for="exp-year">(MM/YY)</label>
+  <input type="text"  id='exp-year' placeholder="YY">
+  <span class="year-id"></span>
+</div>
+<div class="cvc-label">
+  <label for="cvc">CVC</label>
+  <input type="text" id='cvc'placeholder="123">
+  <span class="cvc-id"></span>
+</div>
+
+   </div>
+   <button id='btn'type="submit">Confirm</button>
+
+     
+  </form>
+</div>
+
+</main>
+</div>
+
+</body>
+</html>
